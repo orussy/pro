@@ -91,8 +91,6 @@ pyct==0.5.0
 pydantic==1.10.11
 Pygments==2.15.1
 pyparsing==3.0.9
-pypiwin32==223
-PySocks==1.7.1
 python-dateutil==2.8.2
 pytorch-lightning==2.0.6
 pyttsx3==2.90
