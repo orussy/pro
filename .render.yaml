@@ -3,7 +3,10 @@ services:
     name: flask-tensorflow-app
     env: python
     region: oregon
-    buildCommand: pip install -r requirements.txt
+    buildCommand: |
+      sudo apt-get update
+      sudo apt-get install -y libsndfile1-dev portaudio19-dev python3-dev
+      pip install -r requirements.txt
     startCommand: flask run --host=0.0.0.0 --port=10000
     envVars:
       - key: FLASK_APP
