@@ -25,7 +25,6 @@ darkdetect==0.8.0
 debugpy==1.6.7
 decorator==5.1.1
 distro==1.9.0
-en-core-web-lg @ https://github.com/explosion/spacy-models/releases/download/en_core_web_lg-3.6.0/en_core_web_lg-3.6.0-py3-none-any.whl
 et-xmlfile==1.1.0
 exceptiongroup==1.2.0
 executing==1.2.0
@@ -122,7 +121,6 @@ spacy-loggers==1.0.4
 SpeechRecognition==3.10.1
 srsly==2.4.7
 stack-data==0.6.2
-stem @ file://wsl.localhost/Ubuntu/home/orussy/.cache/pip/wheels/4e/f3/41/2af9219109ac95b19b149169b0a8c99c714c021cb82e813498/stem-1.8.2-py3-none-any.whl#sha256=55a2103eb0371bb5046844997c44724fe8aaf031e4ebf6fae42d6cbdc33b9f3b
 strsim==0.0.3
 sympy==1.12
 thinc==8.1.10
